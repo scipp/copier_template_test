@@ -1,0 +1,9 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: cc9f395
+_src_path: gh:scipp/copier_template
+description: Test of scipp/copier_template
+max_python: '3.12'
+min_python: '3.8'
+orgname: scipp
+projectname: copier_template_test
+year: 2023

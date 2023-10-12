@@ -1,0 +1,38 @@
+package:
+  name: copier_template_test
+
+  version: {{ GIT_DESCRIBE_TAG }}
+
+source:
+  path: ..
+
+requirements:
+  build:
+    - setuptools
+    - setuptools_scm
+  run:
+    - python>=3.8
+
+test:
+  imports:
+    - copier_template_test
+  requires:
+    - pytest
+  source_files:
+    - pyproject.toml
+    - tests/
+  commands:
+    - python -m pytest tests
+
+build:
+  noarch: python
+  script:
+    - pip install .
+
+about:
+  home: https://github.com/scipp/copier_template_test
+  license: BSD-3-Clause
+  summary: Test of scipp/copier_template
+  description: Test of scipp/copier_template
+  dev_url: https://github.com/scipp/copier_template_test
+  doc_url: https://scipp.github.io/copier_template_test
