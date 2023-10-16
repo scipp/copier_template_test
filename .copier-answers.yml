@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
-_commit: d63ee7d
+_commit: f4dd6f8
 _src_path: gh:scipp/copier_template
 description: Test of scipp/copier_template
 max_python: '3.12'

@@ -41,11 +41,11 @@ jsonschema[format-nongpl]==4.19.1
     #   jupyter-events
     #   jupyterlab-server
     #   nbformat
-jupyter-events==0.7.0
+jupyter-events==0.8.0
     # via jupyter-server
 jupyter-lsp==2.2.0
     # via jupyterlab
-jupyter-server==2.7.3
+jupyter-server==2.8.0
     # via
     #   jupyter-lsp
     #   jupyterlab
